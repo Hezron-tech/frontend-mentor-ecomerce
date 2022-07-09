@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .container{
     max-width: 900px;
@@ -9,6 +10,16 @@
 .navbar{
     display: flex;
 }
+
+@media  screen and (max-width: 600px) {
+	.nav{
+		flex-direction: column;
+        
+		
+	}
+}
+ 
+    
 ul{
     display: flex;
 }
@@ -23,9 +34,8 @@ li{
    
 
 }
-.icon{
-    gap: 5%;
-}
+
+
 
 .product-img{
     flex: 1;
@@ -43,7 +53,7 @@ li{
 .shoe img{
 width: 100%;
 height: 100%;
-border-radius: 15%;
+border-radius: 10%;
 }
 .gallery-img{
     display: flex;
@@ -112,3 +122,13 @@ h2{
     align-content: center;
     
 }
+
+@media  screen and (max-width: 600px) {
+	.products{
+		flex-direction: column;
+        flex-direction: column-reverse;
+        
+		
+	}
+}
+    
