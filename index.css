@@ -45,7 +45,22 @@ border-radius: 15%;
 h2{
     color: orange;
 }
-.product-details p{
+.h3{
     font-size: 20px;
     font-weight: bold;
+}
+.price{
+    display: flex;
+    gap: 5%;
+    
+}
+.fifty{
+    color: orange;
+    border-radius: 5px;
+}
+
+
+.cart{
+    display: flex;
+    gap: 5%;
 }
