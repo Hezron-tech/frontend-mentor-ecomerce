@@ -6,11 +6,25 @@
     max-width: 900px;
     margin: auto;
 }
+.navbar{
+    display: flex;
+}
+ul{
+    display: flex;
+}
+li{
+    padding: 20px 14px;
+    list-style: none;
+}
+
 .products{
     display: flex;
     gap:40px
    
 
+}
+.icon{
+    gap: 5%;
 }
 
 .product-img{
@@ -73,13 +87,16 @@ h2{
     justify-content: space-evenly;
     width: 150px;
     align-items: center;
+
     gap:2%;
     background-color: whitesmoke;
     border-radius: 10px;
     border: none;
     outline: none;
     
+
 }
+
 .ctn{
     display: flex;
     justify-content: space-evenly;
@@ -90,4 +107,8 @@ h2{
     border-radius: 10px;
     border: none;
     outline: none;
+    text-align: center;
+    font-size: small;
+    align-content: center;
+    
 }
